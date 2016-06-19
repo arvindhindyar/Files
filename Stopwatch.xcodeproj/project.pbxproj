@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A47592A61D1669EE00D02424 /* TMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47592A51D1669EE00D02424 /* TMViewController.swift */; };
 		A4E554A31CF14BE500CD6113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E554A21CF14BE500CD6113 /* AppDelegate.swift */; };
 		A4E554A51CF14BE500CD6113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E554A41CF14BE500CD6113 /* ViewController.swift */; };
 		A4E554A81CF14BE500CD6113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E554A61CF14BE500CD6113 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A47592A51D1669EE00D02424 /* TMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMViewController.swift; sourceTree = "<group>"; };
 		A4E5549F1CF14BE500CD6113 /* Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E554A21CF14BE500CD6113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4E554A41CF14BE500CD6113 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				A4E554A21CF14BE500CD6113 /* AppDelegate.swift */,
 				A4E554A41CF14BE500CD6113 /* ViewController.swift */,
 				A4E554A61CF14BE500CD6113 /* Main.storyboard */,
+				A47592A51D1669EE00D02424 /* TMViewController.swift */,
 				A4E554A91CF14BE500CD6113 /* Assets.xcassets */,
 				A4E554AB1CF14BE500CD6113 /* LaunchScreen.storyboard */,
 				A4E554AE1CF14BE500CD6113 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4E554A51CF14BE500CD6113 /* ViewController.swift in Sources */,
+				A47592A61D1669EE00D02424 /* TMViewController.swift in Sources */,
 				A4E554A31CF14BE500CD6113 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hindyar.Stopwatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -265,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hindyar.Stopwatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -287,6 +293,7 @@
 				A4E554B31CF14BE500CD6113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
